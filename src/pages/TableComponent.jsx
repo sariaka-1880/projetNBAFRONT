@@ -64,7 +64,7 @@ const TableComponent = () => {
         </thead>
         <tbody>
           {data.map((joueur) => (
-            <tr key={joueur.id}>
+            <tr key={joueur.idjoueur}>
               <td>{joueur.classement}</td>
               <td>{joueur.joueur}</td>
               <td>{joueur.equipe}</td>
